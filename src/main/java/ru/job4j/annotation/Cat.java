@@ -1,9 +1,12 @@
 package ru.job4j.annotation;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 @Component
 public class Cat implements Pet<Cat> {
-    private String name = "Cat";
+//    private String name = "Cat";
+    @Value("${cat.name}")
+    private String name;
 
     @Override
     public String print() {
