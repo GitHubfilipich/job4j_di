@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49875f28-f2d5-4b49-8f7c-d3f6c3ba7adc" name="Changes" comment="3. Жизненный цикл Spring Bean [#505071 #519072]" />
+    <list default="true" id="49875f28-f2d5-4b49-8f7c-d3f6c3ba7adc" name="Changes" comment="3. Жизненный цикл Spring Bean [#505071 #519072] в игнор">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/annotation/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/annotation/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/annotation/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/annotation/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/annotation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/annotation/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/annotation/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,6 +48,7 @@
     "Application.ContextByListOfClasses.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.NoContextDI.executor": "Run",
+    "Application.ru.job4j.annotation.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true"
@@ -49,7 +60,7 @@
       <recent name="ru.job4j.di" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ru.job4j.annotation.Main">
     <configuration name="BeanFactoryDI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.di.BeanFactoryDI" />
       <module name="job4j_di" />
@@ -102,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoContextDI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.di.model.NoContextDI" />
+    <configuration name="ru.job4j.annotation.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.annotation.Main" />
       <module name="job4j_di" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.job4j.di.*" />
+          <option name="PATTERN" value="ru.job4j.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.job4j.annotation.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ContextByJavaBasedConfig" />
         <item itemvalue="Application.ContextByListOfClasses" />
         <item itemvalue="Application.BeanFactoryDI" />
-        <item itemvalue="Application.NoContextDI" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729931878693</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3. Жизненный цикл Spring Bean [#505071 #519072] в игнор">
+      <option name="closed" value="true" />
+      <created>1730020419461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730020419461</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +186,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="3. Жизненный цикл Spring Bean [#505071 #519072]" />
-    <option name="LAST_COMMIT_MESSAGE" value="3. Жизненный цикл Spring Bean [#505071 #519072]" />
+    <MESSAGE value="3. Жизненный цикл Spring Bean [#505071 #519072] в игнор" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. Жизненный цикл Spring Bean [#505071 #519072] в игнор" />
   </component>
 </project>
