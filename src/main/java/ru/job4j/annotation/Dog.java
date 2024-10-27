@@ -14,4 +14,8 @@ public class Dog implements Pet<Dog> {
     public String print() {
         return "Dog name = %s".formatted(name);
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

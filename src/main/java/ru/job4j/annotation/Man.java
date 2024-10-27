@@ -40,6 +40,30 @@ public class Man {
         this.bird = bird;
     }
 
+    public void setDog1(Dog dog1) {
+        this.dog1 = dog1;
+    }
+
+    public void setCat(Cat cat) {
+        this.cat = cat;
+    }
+
+    public void setPets(Set<Pet> pets) {
+        this.pets = pets;
+    }
+
+    public void setDogs(List<Pet<Dog>> dogs) {
+        this.dogs = dogs;
+    }
+
+    public void setMapDogs(Map<String, Pet> mapDogs) {
+        this.mapDogs = mapDogs;
+    }
+
+    public void setDog(Dog dog) {
+        this.dog = dog;
+    }
+
     public void print() {
         System.out.printf("My Dog: %s%n", dog.print());
         System.out.printf("My SecondDog: %s%n", dog1.print());
