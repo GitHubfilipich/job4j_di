@@ -1,4 +1,4 @@
-FROM maven:3.8.8-openjdk-19
+FROM maven:3-eclipse-temurin-19
 
 RUN mkdir job4j_di
 
